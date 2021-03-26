@@ -12,4 +12,6 @@ plt.pie(population,labels=province ,shadow=True
     ,explode=explode, colors=color,autopct="%1.1f%%", wedgeprops={'edgecolor':'black'})
 
 plt.title("PAKISTAN ADMINISTRATIVE UNIT")
+plt.legend(loc=(0.05,0.07))
+plt.tight_layout()
 plt.show()

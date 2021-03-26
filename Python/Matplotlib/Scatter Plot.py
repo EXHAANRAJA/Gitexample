@@ -20,7 +20,6 @@ plt.scatter(x=year1, y=pop1, color='red', marker="+",
 plt.text(2012, 204.3, "India")
 plt.text(2012, 195.3, "Pakistan")
 
-
 plt.grid()
 plt.legend()
 

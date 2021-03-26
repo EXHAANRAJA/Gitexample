@@ -4,7 +4,7 @@ year = [2010, 2012, 2014, 2016, 2018, 2020, 2021]
 pop = [179.4, 187.3, 195.3, 203.6, 204.73, 208.57, 212.48]
 
 # Build a Line Chart
-plt.plot(year, pop)
+plt.plot(year, pop, 'k--')
 
 # Setting Label in x & y cordinate
 plt.xlabel("Year Wise Data")

@@ -2,6 +2,7 @@ from matplotlib import colors
 import matplotlib.pyplot as plt
 from numpy.core.fromnumeric import size
 
+plt.xkcd()
 
 year = [2010, 2012, 2014, 2016, 2018, 2020, 2021]
 pop = [179.4, 187.3, 195.3, 203.6, 204.73, 208.57, 212.48]
@@ -16,7 +17,6 @@ plt.scatter(x=year, y=pop, color='green', marker="*",
 plt.scatter(x=year1, y=pop1, color='red', marker="+",
             alpha=1, s=100, label="Indian poluation")
 
-
 plt.text(2012, 204.3, "India")
 plt.text(2012, 195.3, "Pakistan")
 
@@ -27,5 +27,7 @@ plt.legend()
 plt.xlabel("Year Wise Data")
 plt.ylabel("Population in Million")
 plt.title("Population Projection Between Pakistan vs India")
+
+plt.savefig("Scatter.png")
 
 plt.show()

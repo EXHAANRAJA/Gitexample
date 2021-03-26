@@ -21,4 +21,5 @@ plt.title("Pakistan Population Projection")
 
 plt.legend()
 plt.tight_layout()
+plt.savefig("LineChart.png")
 plt.show()

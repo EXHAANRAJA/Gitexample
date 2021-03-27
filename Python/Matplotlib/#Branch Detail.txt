@@ -4,4 +4,13 @@ In this Branch we often clear basic to advance level
 data visualization concept through python 
 for begineer to advance level 
 
+Chart used :
+* Bar Chart
+* Line Chart
+* Scatter Chart
+* Pie Chart
+* Histogram Chart
+
+More is coming Soon
+
 So Please stay in touch

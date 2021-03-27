@@ -1,7 +1,0 @@
-#Branch Detail
-
-In this Branch we often clear basic to advance level 
-data visualization concept through python 
-for begineer to advance level 
-
-So Please stay in touch

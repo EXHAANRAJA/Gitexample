@@ -19,3 +19,6 @@ You can get the list of available styles
 
 print(plt.style.available())
 
+#Pandas Tutorial
+In pandas tutorial you can learn dataframe , json,csv import , data transformation,uniqueness , scalar function with export the dump data to excel , json files
+All the code inside pandas folder

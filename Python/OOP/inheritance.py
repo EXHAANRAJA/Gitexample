@@ -15,7 +15,8 @@ class Employee:
 
 
 class Manager(Employee):
-    pass
+    def display(self):
+        print("Manager", self.name)
 
 
 # Define a Manager object
@@ -23,3 +24,4 @@ mng = Manager('Debbie Lashko', 86500)
 
 # Print mng's name
 print(mng.name)
+print(mng.display())
